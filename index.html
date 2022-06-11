@@ -17,13 +17,15 @@
 
 <body>
   <main>
-    <img src="images/ball.jpg" alt="Imagem de uma bola de cristal" class="ball" />
+    <img src="images/icone-explorer.png" alt="Icone do evento Maratona Explorer" class="icone-explorer" />
     <h1>Sacar o destino!</h1>
     <p>Clique em fazer pergunta para revelar.</p>
-    <input type="text" placeholder="Digite sua pergunta" />
-    <button type="submit">Fazer pergunta</button>
-    <img src="images/hinata.png" alt="" class="bg">
+    <input type="text" placeholder="Digite sua pergunta" id="pergunta" />
+    <button onclick="fazerPergunta()">Fazer pergunta</button>
+    <img src="images/hinata.png" alt="Imagem de um personagem de animação japonesa" class="hinata">
+    <h3 id="resposta"></h3>
   </main>
+  <script src="script.js"></script>
 </body>
 
 </html>
