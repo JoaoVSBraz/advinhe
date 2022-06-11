@@ -62,15 +62,22 @@ main button:hover {
   filter: brightness(1.10);
 }
 
-.ball {
+.icone-explorer {
   width: 130px;
 }
 
-.bg {
+.hinata {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 200px;
+  width: 170px;
+}
+
+#resposta {
+  color: #fff;
+  margin: 16px 0 0 0;
+  font-size: 16px;
+  opacity: .8;
 }
 
 @media(min-width: 992px) {
@@ -83,7 +90,7 @@ main button:hover {
     margin: 0;
   }
 
-  .ball {
+  .icone-explorer {
     width: 200px;
   }
 
@@ -91,7 +98,7 @@ main button:hover {
     font-size: 40px;
   }
 
-  .bg {
+  .hinata {
     width: 400px;
   }
 }
@@ -101,7 +108,7 @@ main button:hover {
     margin: 0 0 0 20%;
   }
 
-  .bg {
+  .hinata {
     width: 600px;
   }
 }
