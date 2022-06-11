@@ -1,4 +1,4 @@
-# Advinhe
+# Sacar Destino
 
 A aplicação web construída para advinhar seu futuro
 
@@ -10,7 +10,7 @@ A aplicação web construída para advinhar seu futuro
 
 ## Visão geral
 
-Advinhe é uma aplicação web simples baseada na tríade de tecnologias da web - html, css e javascript. Construída na **Maratona Explorer**, um evento online de programação, voltado à ingressantes na área de programção web realizado pela Rocketseat.
+Sacar Destino é uma aplicação web simples baseada na tríade de tecnologias da web - html, css e javascript. Construída na **Maratona Explorer**, um evento online de programação, voltado à ingressantes na área de programção web realizado pela Rocketseat.
 
 Você pode conferir o processo, anotações e conteúdos extras a seguir. 
 
