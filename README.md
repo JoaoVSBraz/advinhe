@@ -2,11 +2,13 @@
 
 A aplicação web construída para advinhar seu futuro
 
+![](images/maratona-explorer.gif)
+
 ## Conteúdo
 
-- Visão geral
-- Meu processo
-- Referências
+- [Visão geral](#visão-geral)
+- [Meu processo](#meu-processo)
+- [Referências](#referências)
 
 ## Visão geral
 
