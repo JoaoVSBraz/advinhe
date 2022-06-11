@@ -59,7 +59,7 @@ main button {
 
 main button:hover {
   cursor: pointer;
-  filter: brightness(1.10);
+  filter: brightness(1.20);
 }
 
 .icone-explorer {
@@ -73,11 +73,21 @@ main button:hover {
   width: 170px;
 }
 
+#root {
+  transition: 1s;
+}
+
+#pergunta {
+  color: #fff;
+  font: normal 400 14px/14px "Poppins", sans-serif;
+  margin: 16px 0 0 0;
+  opacity: .8;
+}
+
 #resposta {
   color: #fff;
+  font: normal 600 18px/18px "Poppins", sans-serif;
   margin: 16px 0 0 0;
-  font-size: 16px;
-  opacity: .8;
 }
 
 @media(min-width: 992px) {
@@ -96,6 +106,18 @@ main button:hover {
 
   main h1 {
     font-size: 40px;
+  }
+
+  #pergunta {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 32px 0 0 0;
+  }
+
+  #resposta {
+    font-size: 22px;
+    line-height: 22px;
+    margin: 32px 0 0 0;
   }
 
   .hinata {
