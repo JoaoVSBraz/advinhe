@@ -20,21 +20,19 @@ const respostas = [
   "Sinais apontam que sim.",
 ]
 
-
-
 function fazerPergunta() {
   const root = document.getElementById('root')
   const btnPerguntar = document.getElementById('btn-perguntar')
   const totalRespostas = respostas.length
   const numeroAleatorio = Math.floor(Math.random() * totalRespostas)
 
-  function componentePergunta() {
-    const inputPergunta = document.getElementById('input-pergunta')
-    if (inputPergunta.value == '') {
-      alert('Digite uma pergunta!')
-      return
-    }
+  const inputPergunta = document.getElementById('input-pergunta')
+  if (inputPergunta.value == '') {
+    alert('Digite uma pergunta!')
+    return
+  }
 
+  function componentePergunta() {
     btnPerguntar.setAttribute('disabled', true)
 
     return `
