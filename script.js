@@ -19,14 +19,21 @@ const respostas = [
   "Concentre-se e pergunte novamente.",
   "Sinais apontam que sim.",
 ]
+const buttons = document.querySelectorAll('button')
+
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('click', fazerPergunta)
+}
 
 function fazerPergunta() {
   const root = document.getElementById('root')
   const btnPerguntar = document.getElementById('btn-perguntar')
   const totalRespostas = respostas.length
   const numeroAleatorio = Math.floor(Math.random() * totalRespostas)
-
   const inputPergunta = document.getElementById('input-pergunta')
+
+  root.style.display = 'block'
+
   if (inputPergunta.value == '') {
     alert('Digite uma pergunta!')
     return
@@ -34,6 +41,7 @@ function fazerPergunta() {
 
   function componentePergunta() {
     btnPerguntar.setAttribute('disabled', true)
+
 
     return `
       <div id="pergunta">${inputPergunta.value}</div>
@@ -50,6 +58,7 @@ function fazerPergunta() {
 
   setTimeout(() => {
     root.style.opacity = 0
+    root.style.display = 'none'
     btnPerguntar.removeAttribute('disabled')
   }, 3000)
 
